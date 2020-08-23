@@ -9,21 +9,37 @@
 /* Begin PBXBuildFile section */
 		040E870724EB80CE00150866 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040E870624EB80CE00150866 /* AppDelegate.swift */; };
 		040E870924EB80CE00150866 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040E870824EB80CE00150866 /* SceneDelegate.swift */; };
-		040E870B24EB80CE00150866 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040E870A24EB80CE00150866 /* ViewController.swift */; };
 		040E870E24EB80CE00150866 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 040E870C24EB80CE00150866 /* Main.storyboard */; };
 		040E871024EB80D000150866 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 040E870F24EB80D000150866 /* Assets.xcassets */; };
 		040E871324EB80D000150866 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 040E871124EB80D000150866 /* LaunchScreen.storyboard */; };
+		040E871B24EB819A00150866 /* InputTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040E871A24EB819A00150866 /* InputTableViewController.swift */; };
+		040E871D24EBF9D100150866 /* OrderTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040E871C24EBF9D100150866 /* OrderTableViewController.swift */; };
+		040E871F24EBFDBA00150866 /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040E871E24EBFDBA00150866 /* MenuTableViewController.swift */; };
+		040E872124EBFF0C00150866 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040E872024EBFF0C00150866 /* Menu.swift */; };
+		040E872324EC022F00150866 /* Menu.plist in Resources */ = {isa = PBXBuildFile; fileRef = 040E872224EC022F00150866 /* Menu.plist */; };
+		040E872524EC1C7500150866 /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040E872424EC1C7500150866 /* MenuTableViewCell.swift */; };
+		040E872924EE635400150866 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040E872824EE635400150866 /* Order.swift */; };
+		040E872B24F1049400150866 /* OrderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040E872A24F1049400150866 /* OrderTableViewCell.swift */; };
+		04E017EB24F13BE600FB9F4A /* CountTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E017EA24F13BE600FB9F4A /* CountTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		040E870324EB80CE00150866 /* Drink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Drink.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		040E870624EB80CE00150866 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		040E870824EB80CE00150866 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		040E870A24EB80CE00150866 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		040E870D24EB80CE00150866 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		040E870F24EB80D000150866 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		040E871224EB80D000150866 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		040E871424EB80D000150866 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		040E871A24EB819A00150866 /* InputTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputTableViewController.swift; sourceTree = "<group>"; };
+		040E871C24EBF9D100150866 /* OrderTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderTableViewController.swift; sourceTree = "<group>"; };
+		040E871E24EBFDBA00150866 /* MenuTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
+		040E872024EBFF0C00150866 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		040E872224EC022F00150866 /* Menu.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Menu.plist; sourceTree = "<group>"; };
+		040E872424EC1C7500150866 /* MenuTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewCell.swift; sourceTree = "<group>"; };
+		040E872824EE635400150866 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		040E872A24F1049400150866 /* OrderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderTableViewCell.swift; sourceTree = "<group>"; };
+		04E017EA24F13BE600FB9F4A /* CountTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +74,16 @@
 			children = (
 				040E870624EB80CE00150866 /* AppDelegate.swift */,
 				040E870824EB80CE00150866 /* SceneDelegate.swift */,
-				040E870A24EB80CE00150866 /* ViewController.swift */,
 				040E870C24EB80CE00150866 /* Main.storyboard */,
+				04E017EA24F13BE600FB9F4A /* CountTableViewCell.swift */,
+				040E872A24F1049400150866 /* OrderTableViewCell.swift */,
+				040E872224EC022F00150866 /* Menu.plist */,
+				040E872024EBFF0C00150866 /* Menu.swift */,
+				040E871E24EBFDBA00150866 /* MenuTableViewController.swift */,
+				040E872424EC1C7500150866 /* MenuTableViewCell.swift */,
+				040E871C24EBF9D100150866 /* OrderTableViewController.swift */,
+				040E871A24EB819A00150866 /* InputTableViewController.swift */,
+				040E872824EE635400150866 /* Order.swift */,
 				040E870F24EB80D000150866 /* Assets.xcassets */,
 				040E871124EB80D000150866 /* LaunchScreen.storyboard */,
 				040E871424EB80D000150866 /* Info.plist */,
@@ -125,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				040E871324EB80D000150866 /* LaunchScreen.storyboard in Resources */,
+				040E872324EC022F00150866 /* Menu.plist in Resources */,
 				040E871024EB80D000150866 /* Assets.xcassets in Resources */,
 				040E870E24EB80CE00150866 /* Main.storyboard in Resources */,
 			);
@@ -137,7 +162,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				040E870B24EB80CE00150866 /* ViewController.swift in Sources */,
+				040E872124EBFF0C00150866 /* Menu.swift in Sources */,
+				04E017EB24F13BE600FB9F4A /* CountTableViewCell.swift in Sources */,
+				040E871D24EBF9D100150866 /* OrderTableViewController.swift in Sources */,
+				040E872924EE635400150866 /* Order.swift in Sources */,
+				040E872524EC1C7500150866 /* MenuTableViewCell.swift in Sources */,
+				040E871B24EB819A00150866 /* InputTableViewController.swift in Sources */,
+				040E871F24EBFDBA00150866 /* MenuTableViewController.swift in Sources */,
+				040E872B24F1049400150866 /* OrderTableViewCell.swift in Sources */,
 				040E870724EB80CE00150866 /* AppDelegate.swift in Sources */,
 				040E870924EB80CE00150866 /* SceneDelegate.swift in Sources */,
 			);
@@ -216,7 +248,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -271,7 +303,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
